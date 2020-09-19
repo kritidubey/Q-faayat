@@ -11,6 +11,21 @@ header{
 	font-size: 50px;
 	text-align: center;
 	color: #FFFFFF;
+ 
+	padding: 2px;
+	background-image: url(header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #313537;
+    color: #F5F5F7;
+    padding: 50px 0;
+}
+ 
+=======
 	background-image: url(head.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,3 +83,4 @@ img.box-img{
 p.content{
     float: left;
 }
+ 
