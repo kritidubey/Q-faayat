@@ -1,8 +1,17 @@
+body{
+    margin: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.top-page{
+    height: 30vh;
+}
+
 header{
 	background: #B3B3B3;
-	font-size: 130%;
+	font-size: 50px;
 	text-align: center;
 	color: #FFFFFF;
+ 
 	padding: 2px;
 	background-image: url(header.jpg);
         background-repeat: no-repeat;
@@ -14,5 +23,64 @@ footer{
     background-color: #313537;
     color: #F5F5F7;
     padding: 50px 0;
+}
+ 
+=======
+	background-image: url(head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.logo{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 10px;
+}
+h1, h6{
+    display: flex;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+nav {
+    clear: both;
+    display: flex;
+    margin-bottom: 0px;
+}
+nav a{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.search-bar{
+    float: right;
+}
+@media only screen and (max-width: 800px) {
+    nav a{
+        font-size: 0.7rem;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+    input[type=search]{
+        height: 38px;
+        width: 140px;
+    }
+}
+.cardbody{
+    margin: 50px 100px 100px 50px;
+}
+.card-box{
+    display: inline-block;
+}
+img.box-img{
+  width: 100%;
+  max-width: 30%;
+  height: auto;
+  float: right;
+}
+p.content{
+    float: left;
 }
  
