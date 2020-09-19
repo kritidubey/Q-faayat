@@ -4,36 +4,9 @@ header{
 	text-align: center;
 	color: #FFFFFF;
 	padding: 2px;
-	background-image: url(images/header.jpg);
+	background-image: url(header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-}
-
-
-#link{
-    display: block;
-    background-color: #313537;
-    color: #F5F5F7;
-    min-height: 10px;
-    line-height: 10px;
-    position: relative;
-}
-
-nav a{
-    margin: 20px;
-    width:200px;
-    background: #ffffffb8;
-    color: #000000;
-    font-family: Times new Roman;
-    border-radius: 10px;
-    padding: 5px;
-    text-align:center;
-    display: inline-block;
-    text-decoration: none;
-}
-
-nav a:hover{
-    background: #ffffff;
 }
 
 footer{
