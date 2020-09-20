@@ -66,9 +66,10 @@ nav a{
 }
 img.box-img{
   width: 100%;
-  max-width: 30%;
+  max-width: 25%;
   height: auto;
   float: right;
+  border-radius: 9px;
 }
 p.content{
     float: left;
